@@ -5,7 +5,7 @@ const app = express();
 app.use(cors()); 
 const port = 3000; 
 app.get('/', (req, res) => {
-  res.send('Arithmetic service - last updated 2/15/2024-10:47am');
+  res.send('Arithmetic service - last updated TYPE-THE-DATE-AND-TIME-HERE');
 }); 
 app.get('/add/:n/:m', (req, res) => {
   let n = Number(req.params.n);
@@ -15,3 +15,4 @@ app.get('/add/:n/:m', (req, res) => {
   }); 
  
 app.listen(port);
+
