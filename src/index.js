@@ -12,7 +12,7 @@ if (!process.env.PORT) {
 
 const port = process.env.PORT; 
 app.get('/', (req, res) => {
-  res.send('Arithmetic service - last updated 3/4/2022');
+  res.send('Arithmetic service - last updated 3/18/2024');
 }); 
 app.get('/add/:n/:m', (req, res) => {
   let n = Number(req.params.n);
